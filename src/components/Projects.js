@@ -30,7 +30,7 @@ export const Projects = () => {
         },
         {
             title: "hair",
-            description: "or no hair to be sleek",
+            description: "to pull the look together",
             imgUrl: projImg4,
         },
        

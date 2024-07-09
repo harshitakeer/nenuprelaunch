@@ -5,6 +5,7 @@ import projImg1 from "../assets/img/Nenu Projects (8).png";
 import projImg2 from "../assets/img/Nenu Projects (1).png";
 import projImg3 from "../assets/img/Nenu Projects (2).png";
 import projImg4 from "../assets/img/Nenu Projects (10).png";
+import confetti from 'canvas-confetti';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

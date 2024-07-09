@@ -1,4 +1,5 @@
 import { Col } from "react-bootstrap";
+import confetti from 'canvas-confetti';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

@@ -4,6 +4,7 @@ import logo from '../assets/img/Untitled_Artwork 7.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon_2.png';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import confetti from 'canvas-confetti';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

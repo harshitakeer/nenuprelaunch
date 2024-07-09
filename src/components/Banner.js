@@ -4,6 +4,8 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/yoyo.png";
 import confetti from 'canvas-confetti';
 import { Helmet } from 'react-helmet';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export const Banner = () => {
 

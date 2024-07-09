@@ -4,6 +4,8 @@ import logo from '../assets/img/Untitled_Artwork 7.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon_2.png';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 export const NavBar = () => {
@@ -46,9 +48,9 @@ export const NavBar = () => {
             </Nav>
             <span className = "navbar-text">
                 <div className="social-icon">
-                    <a href="#"><img src={navIcon1} alt = "" /></a>
-                    <a href="#"><img src={navIcon2} alt = "" /></a>
-                    <a href="#"><img src={navIcon3} alt = "" /></a>
+                    <a href="https://www.linkedin.com/in/harshita-keerthipati/"><img src={navIcon1} alt = "" /></a>
+                    <a href="https://twitter.com/harsh1tak"><img src={navIcon2} alt = "" /></a>
+                    <a href="https://www.instagram.com/harshita.keerthipati/"><img src={navIcon3} alt = "" /></a>
                 </div>
                 <button className="vvd" onClick={() => window.location.href = '#project'}><span>let's go!</span></button>
             </span>

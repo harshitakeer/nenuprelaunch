@@ -23,7 +23,7 @@ export const Banner = () => {
         <>
         <Helmet>
             <title>nenu</title>
-            <link rel="icon" href="http://localhost:3000/title_logo.ico" type="image/png" />
+            <link rel="icon" href="http://localhost:3000/../assets/img/title_logo.ico" type="image/png" />
         </Helmet>
       <section className="banner" id="home">
         <Container>

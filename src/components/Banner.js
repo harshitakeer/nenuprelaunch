@@ -23,7 +23,7 @@ export const Banner = () => {
         <>
         <Helmet>
             <title>nenu</title>
-            <link rel="icon" href="https://nenuprelaunch.vercel.app/assets/img/title_logo.ico" type="image/png" />
+            <link rel="icon" href="%PUBLIC_URL%/assets/img/title_logo.ico" type="image/png" />
         </Helmet>
       <section className="banner" id="home">
         <Container>

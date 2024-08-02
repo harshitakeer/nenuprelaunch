@@ -62,12 +62,7 @@ export const Projects = () => {
                             </Tab.Pane>
                         </Tab.Content>
                         </Tab.Container>
-                        <div className="iframe-container">
-                            <iframe
-                                src="https://forms.gle/Ai2XoLc7EGUfZ8dx5"
-                                className="responsive-iframe"
-                                title="Project Feedback Form">Loading…</iframe>
-                        </div>
+                        <div id="waitforit-embed" data-project-id="67340bfe-14db-4756-92ae-a5f3da2b3505"></div>
                     </Col>
                 </Row>
             </Container>
@@ -76,3 +71,4 @@ export const Projects = () => {
 
     )
 }
+

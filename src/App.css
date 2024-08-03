@@ -229,6 +229,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 16px;
   display: inline-block;
 }
+
+.custom-button {
+  background-color: #ea8ebc; /* Hot pink color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #e45da5; /* Deep pink color */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
 .banner h1 {
   font-size: 65px;
   font-weight: 700;
@@ -342,20 +358,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     left: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
-}
-
-.custom-button {
-  background-color: #AA367C; /* Tomato color */
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.custom-button:hover {
-  background-color: #AA367C; /* Darker tomato color */
 }
 
 .project .nav.nav-pills .nav-link.active::before {

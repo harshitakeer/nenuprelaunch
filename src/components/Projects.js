@@ -43,6 +43,7 @@ export const Projects = () => {
                     <Col>
                     <h2>pieces</h2>
                     <p>choose your own actions, faces, hats, and more for your own avatar! more pieces will be added and updated here. any suggestions or want to sign-up? scroll down and sign up using the google form!</p>
+                    <Button variant="primary" href="https://www.waitforit.me/signup/67340bfe">pre-order now</Button>
                     <Tab.Container id="project-tabs" defaultActiveKey="first">
                     <Nav variant = "pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                         </Nav>

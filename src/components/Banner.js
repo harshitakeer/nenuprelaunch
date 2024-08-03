@@ -33,7 +33,7 @@ export const Banner = () => {
                     <span className="tagline"> welcome to pre-launch of</span>
                     <h1>{'nenu apparel'}<span className="wrap">{''}</span></h1>
                     <p> create a customizable, fully embroidered mini-you from a variety of options given on the website. once you're satisfied, cop the merch and elevate your vibe. this can be u →</p>
-                    <Button className="custom-button" href="https://waitforit.me/signup/67340bfe">pre-order now!</Button>
+                    <Button className="custom-button" href="https://www.waitforit.me/signup/67340bfe">pre-order now!</Button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                     <img src={headerImg} alt="Header Img" className="header-img" />

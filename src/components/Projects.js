@@ -62,9 +62,7 @@ export const Projects = () => {
                             </Tab.Pane>
                         </Tab.Content>
                         </Tab.Container>
-                        <script src="https://www.waitforit.me/waitlistV3.bundle.js" async></script>
                         <div id="waitforit-embed" data-project-id="67340bfe-14db-4756-92ae-a5f3da2b3505"></div>
-                        <link rel="stylesheet" type="text/css" href="https://www.waitforit.me/wfiEmbedStyles.css"></link>
                     </Col>
                 </Row>
             </Container>

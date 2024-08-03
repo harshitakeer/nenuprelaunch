@@ -9,6 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Banner = () => {
 
+    const handleSignupClick = () => {
+        window.open('https://www.waitforit.me/signup/67340bfe', '_blank');
+    };
+
     useEffect(() => {
         confetti({
             particleCount: 100,
@@ -18,10 +22,6 @@ export const Banner = () => {
             shapes: ['square', 'circle', 'star']    // Optional: customize confetti shapes
         });
     }, []);
-
-    const handleSignupClick = () => {
-        window.open('https://www.waitforit.me/signup/67340bfe', '_blank');
-    };
 
     return (
         <>
@@ -42,7 +42,7 @@ export const Banner = () => {
                             onClick={handleSignupClick}
                             className="mt-3"
                         >
-                            Sign Up Now! <ArrowRightCircle size={25} />
+                            Sign Up Now!
                         </Button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>

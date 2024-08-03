@@ -62,7 +62,11 @@ export const Projects = () => {
                             </Tab.Pane>
                         </Tab.Content>
                         </Tab.Container>
-                        <div id="waitforit-embed" data-project-id="67340bfe-14db-4756-92ae-a5f3da2b3505"></div>
+                        <div className="text-center mt-4">
+                            <Button variant="primary" size="lg" onClick={handleSignupClick}>
+                                Sign Up Now!
+                            </Button>
+                        </div>
                     </Col>
                 </Row>
             </Container>

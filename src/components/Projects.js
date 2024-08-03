@@ -35,6 +35,11 @@ export const Projects = () => {
         },
        
     ];
+
+    const handleSignupClick = () => {
+        window.open('https://www.waitforit.me/signup/67340bfe', '_blank');
+    };
+
     return (
         <section className="project" id="project">
             <Container>
@@ -62,11 +67,11 @@ export const Projects = () => {
                             </Tab.Pane>
                         </Tab.Content>
                         </Tab.Container>
-                        <div className="text-center mt-4">
-                            <Button variant="primary" size="lg" onClick={handleSignupClick}>
-                                Sign Up Now!
-                            </Button>
-                        </div>
+                    <div className="text-center mt-4">
+                        <Button variant="primary" size="lg" onClick={handleSignupClick}>
+                            Sign Up Now!
+                        </Button>
+                    </div>
                     </Col>
                 </Row>
             </Container>

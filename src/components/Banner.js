@@ -5,8 +5,6 @@ import headerImg from "../assets/img/yoyo.png";
 import confetti from 'canvas-confetti';
 import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './customStyles.css';  // Import your custom CSS
-
 
 export const Banner = () => {
 

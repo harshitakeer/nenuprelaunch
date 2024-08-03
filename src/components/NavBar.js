@@ -45,13 +45,13 @@ export const NavBar = () => {
                 <Nav className="me-auto">
                 <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>home</Nav.Link>
                 <Nav.Link href="#project" className={activeLink === 'pieces' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('pieces')}>pieces</Nav.Link>
-                <Nav.Link href="#project" className={activeLink === 'signup' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('signup')}>sign up</Nav.Link>
+                <Nav.Link href="#project" className={activeLink === 'pre-order now' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('signup')}>sign up</Nav.Link>
             </Nav>
             <span className = "navbar-text">
                 <div className="social-icon">
                     <a href="https://www.linkedin.com/in/harshita-keerthipati/"><img src={navIcon1} alt = "" /></a>
                     <a href="https://twitter.com/harsh1tak"><img src={navIcon2} alt = "" /></a>
-                    <a href="https://www.instagram.com/harshita.keerthipati/"><img src={navIcon3} alt = "" /></a>
+                    <a href="https://www.instagram.com/nenu.apparel/"><img src={navIcon3} alt = "" /></a>
                 </div>
                 <button className="vvd" onClick={() => window.location.href = '#project'}><span>let's go!</span></button>
             </span>

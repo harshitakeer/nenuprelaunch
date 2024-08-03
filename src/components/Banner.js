@@ -19,6 +19,10 @@ export const Banner = () => {
         });
     }, []);
 
+    const handleSignupClick = () => {
+        window.open('https://www.waitforit.me/signup/67340bfe', '_blank');
+    };
+
     return (
         <>
         <Helmet>
@@ -32,6 +36,14 @@ export const Banner = () => {
                     <span className="tagline"> welcome to pre-launch of</span>
                     <h1>{'nenu apparel'}<span className="wrap">{''}</span></h1>
                     <p> create a customizable, fully embroidered mini-you from a variety of options given on the website. once you're satisfied, cop the merch and elevate your vibe. this can be u →</p>
+                    <Button 
+                            variant="primary" 
+                            size="lg" 
+                            onClick={handleSignupClick}
+                            className="mt-3"
+                        >
+                            Sign Up Now! <ArrowRightCircle size={25} />
+                        </Button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                     <img src={headerImg} alt="Header Img" className="header-img" />
